@@ -46,19 +46,6 @@ app/
 | 09    | CI/CD                  | Not Started |
 | 10    | Monitoring             | Not Started |
 
-Architecture
 
-The lab will gradually evolve into a complete Azure environment.
-
-flowchart TD
-    GitHub[GitHub Repository] --> Actions[GitHub Actions]
-    Actions --> Terraform[Terraform]
-    Terraform --> Azure[Azure Subscription]
-    Azure --> RG[Resource Group]
-    RG --> Network[Virtual Network]
-    RG --> Storage[Storage Account]
-    RG --> App[App Service]
-    RG --> Monitor[Azure Monitor]
-    Entra[Microsoft Entra ID] --> Azure
 
 
