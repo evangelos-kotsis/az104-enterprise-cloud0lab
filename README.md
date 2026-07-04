@@ -1,6 +1,3 @@
-# az104-enterprise-cloud-lab
-Enterprise Azure Administrator lab for AZ-104 using Terraform, Entra ID, GitHub Actions, and Azure services.
-
 # ☁️ AZ-104 Enterprise Cloud Lab
 
 A complete enterprise-style Azure Administrator lab built from scratch for hands-on learning and portfolio development.
