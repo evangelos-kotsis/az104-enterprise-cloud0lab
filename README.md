@@ -1,51 +1,107 @@
 # az104-enterprise-cloud-lab
 Enterprise Azure Administrator lab for AZ-104 using Terraform, Entra ID, GitHub Actions, and Azure services.
 
-This repository documents and implements an enterprise-style Azure Administrator lab for AZ-104 preparation.
+# ☁️ AZ-104 Enterprise Cloud Lab
 
-The lab uses Microsoft Azure, Terraform, Microsoft Entra ID, GitHub Actions, and Azure monitoring services to simulate a real-world cloud environment.
+A complete enterprise-style Azure Administrator lab built from scratch for hands-on learning and portfolio development.
 
-## Objectives
+This repository documents the design, implementation and automation of a Microsoft Azure environment using Infrastructure as Code and DevOps practices.
 
-- Build Azure infrastructure from the ground up
-- Understand core AZ-104 concepts through hands-on implementation
-- Use Terraform for Infrastructure as Code
-- Store Terraform state remotely in Azure Storage
-- Use GitHub Actions for CI/CD
-- Implement identity and access management with Microsoft Entra ID
-- Deploy a small application to Azure
-- Document the full architecture and decisions
+---
 
-## Current Azure Environment
+# 🎯 Objectives
 
-- Tenant: Default Directory
-- Primary Domain: pafron83.onmicrosoft.com
-- Subscription: Azure Subscription 1
-- Plan: Azure Free Plan
-- Primary Region: West Europe
-- Resource Group: rg-az104-lab-dev
+This project aims to:
 
-## Repository Structure
+- Learn Microsoft Azure through hands-on practice
+- Prepare for the AZ-104 certification
+- Build Azure infrastructure using Terraform
+- Learn Microsoft Entra ID
+- Implement GitHub Actions CI/CD pipelines
+- Deploy and manage Azure resources
+- Build a professional Cloud Engineer portfolio project
+
+---
+
+# 🛠 Technologies
+
+- Microsoft Azure
+- Terraform
+- Microsoft Entra ID
+- GitHub Actions
+- Azure CLI
+- Azure Cloud Shell
+- App Service
+- Azure Monitor
+- Log Analytics
+
+---
+
+# 📁 Repository Structure
 
 ```text
-docs/
-terraform/
-app/
-.github/workflows/
+.
+├── docs/
+├── terraform/
+├── app/
+├── .github/
+│   └── workflows/
+└── README.md
+```
 
-| Phase | Topic                  | Status      |
-| ----- | ---------------------- | ----------- |
-| 01    | Azure Foundations      | In Progress |
-| 02    | Resource Groups        | In Progress |
-| 03    | Storage Account        | Not Started |
-| 04    | Terraform Remote State | Not Started |
-| 05    | Networking             | Not Started |
-| 06    | Virtual Machines       | Not Started |
-| 07    | Entra ID               | Not Started |
-| 08    | App Service            | Not Started |
-| 09    | CI/CD                  | Not Started |
-| 10    | Monitoring             | Not Started |
+---
 
+# 📚 Documentation
 
+| Document | Description |
+|----------|-------------|
+| Azure Foundations | Azure hierarchy and core concepts |
+| Resource Groups | Resource organization |
+| Storage Accounts | Azure Storage |
+| Networking | VNets, NSGs and Routing |
+| Terraform | Infrastructure as Code |
+| Entra ID | Identity and Access |
+| App Service | Application hosting |
+| CI/CD | GitHub Actions |
+| Monitoring | Azure Monitor |
 
+---
+
+# 🚀 Current Progress
+
+| Phase | Status |
+|--------|--------|
+| Azure Foundations | ✅ |
+| Resource Groups | ✅ |
+| Storage Account | ⏳ |
+| Terraform | ⏳ |
+| Networking | ⏳ |
+| Entra ID | ⏳ |
+| App Service | ⏳ |
+| CI/CD | ⏳ |
+
+---
+
+# 🌍 Azure Environment
+
+| Item | Value |
+|------|-------|
+| Subscription | Azure Subscription 1 |
+| Region | West Europe |
+| Resource Group | rg-az104-lab-dev |
+
+---
+
+# 📖 Learning Philosophy
+
+Every Azure service in this repository is implemented twice:
+
+1. Azure Portal (to understand the service)
+2. Terraform (to automate the infrastructure)
+
+The goal is not only to pass the AZ-104 certification but also to build practical cloud engineering skills.
+
+---
+
+Project in progress 🚀
 
